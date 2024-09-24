@@ -18,7 +18,7 @@
     <meta name="twitter:site" content="@yayoi_mizuha">
     <meta name="twitter:title" content="この目元は誰？">
     <meta name="twitter:description" content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。">
-    <meta name="twitter:image" content="{og_image}">
+<!--    <meta name="twitter:image" content="{og_image}">-->
 </svelte:head>
 
 <section>

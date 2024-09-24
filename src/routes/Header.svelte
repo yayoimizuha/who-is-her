@@ -6,8 +6,8 @@
 
 <header>
     <div class="corner">
-        <a href="https://kit.svelte.dev">
-            <img src={logo} alt="SvelteKit"/>
+        <a href="https://hello-eyemask-quiz.web.app/">
+            <img src={logo} alt="この目元は誰？"/>
         </a>
     </div>
 
