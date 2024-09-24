@@ -1,13 +1,24 @@
 <script>
     // import Counter from './Counter.svelte';
     // import welcome from '$lib/images/svelte-welcome.webp';
-    // import welcome_fallback from '$lib/images/svelte-welcome.png';
+    import og_image from '$lib/images/ogp.png';
     import PlayButton from "./PlayButton.svelte";
 </script>
 
 <svelte:head>
     <title>この目元は誰？</title>
-    <meta name="description" content="Svelte demo app"/>
+    <meta name="description" content="この目元は誰？"/>
+    <meta property="og:url" content="https://hello-eyemask-quiz.web.app/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="この目元は誰？"/>
+    <meta property="og:description" content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。"/>
+    <meta property="og:site_name" content="この目元は誰？"/>
+    <meta property="og:image" content="{og_image}"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@yayoi_mizuha">
+    <meta name="twitter:title" content="この目元は誰？">
+    <meta name="twitter:description" content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。">
+    <meta name="twitter:image" content="{og_image}">
 </svelte:head>
 
 <section>
