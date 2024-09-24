@@ -13,7 +13,7 @@
     <meta property="og:title" content="この目元は誰？"/>
     <meta property="og:description" content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。"/>
     <meta property="og:site_name" content="この目元は誰？"/>
-    <meta property="og:image" content="{og_image}"/>
+    <meta property="og:image" content="https://hello-eyemask-quiz.web.app{og_image}"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@yayoi_mizuha">
     <meta name="twitter:title" content="この目元は誰？">
