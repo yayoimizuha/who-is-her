@@ -1,18 +1,5 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# ハロメンのアイマスククイズ
+[9月FC通販ソロアイマスク](https://x.com/ufi_fc/status/1836730243589255235)の画像を使って、目元の画像から、その目元がだれなのかを当てるクイズアプリです。
 
 ## Developing
 
