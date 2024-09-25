@@ -32,14 +32,15 @@
         return v == $result[i]
     }).filter(v => !v).length;
 
-    let checked = false;
+    let checked = true;
     $:console.log("state changed:", checked)
 </script>
 <div class="main">
+    <p>※URL共有では結果が共有されないので、スクリーンショットを使ってください。</p>
     <div class="result_status">
         {#if $all_questions != null}
             {#if wrong_num === 0 }
-                <b>全問正解!!</b>
+                <b>全問正解!!({$all_questions}問)</b>
             {:else}
                 <b>{$all_questions}問中{$all_questions - wrong_num}問正解!!</b>
             {/if}
