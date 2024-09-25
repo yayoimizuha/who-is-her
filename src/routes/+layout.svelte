@@ -11,13 +11,15 @@
     <meta property="og:url" content="https://hello-eyemask-quiz.web.app/"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="この目元は誰？"/>
-    <meta property="og:description" content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。"/>
+    <meta property="og:description"
+          content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。"/>
     <meta property="og:site_name" content="この目元は誰？"/>
     <meta property="og:image" content="https://hello-eyemask-quiz.web.app{og_image}"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@yayoi_mizuha">
     <meta name="twitter:title" content="この目元は誰？">
-    <meta name="twitter:description" content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。">
+    <meta name="twitter:description"
+          content="これは9月FC通販ソロアイマスクの画像から切り取った目元の画像から、それが誰かを当てるクイズアプリです。">
     <!--    <meta name="twitter:image" content="{og_image}">-->
 </svelte:head>
 <div class="app">
@@ -28,7 +30,8 @@
     </main>
 
     <footer>
-        <p>制作: <a href="https://x.com/yayoi_mizuha" target="_blank">@yayoi_mizuha</a> (画像の著作権はアップフロントインターナショナル社に属します。)</p>
+        <p>制作: <a href="https://x.com/yayoi_mizuha" target="_blank">@yayoi_mizuha</a> (画像の著作権はアップフロントインターナショナル社に属します。)
+        </p>
     </footer>
 
     <!-- Google tag (gtag.js) -->
@@ -42,7 +45,9 @@
 
         gtag('js', new Date());
 
-        gtag('config', 'G-BPY1S17CTR');
+        gtag('config', 'G-BPY1S17CTR', {
+            "cookie_domain": "none"
+        });
     </script>
 
 </div>
