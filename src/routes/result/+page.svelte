@@ -15,7 +15,7 @@
     })
 
     const fetchJson = async () => {
-        return await (await fetch("/data.json")).json()
+        return await (await fetch("https://mizuha-dev.com/files/data.json")).json()
     }
 
     const get_image = (
