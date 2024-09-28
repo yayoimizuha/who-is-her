@@ -2,7 +2,7 @@
     <title>結果ページ</title>
 </svelte:head>
 <script lang="ts">
-    import {all_questions, already, result, play_mode} from "$lib/shared_val";
+    import {all_questions, already, result} from "$lib/shared_val";
     import {goto} from "$app/navigation";
     import {browser} from "$app/environment";
     import {onMount} from "svelte";
@@ -15,7 +15,7 @@
     })
 
     const fetchJson = async () => {
-        return await (await fetch("https://mizuha-dev.com/files/data.json")).json()
+        return await (await fetch("/data.json")).json()
     }
 
     const get_image = (

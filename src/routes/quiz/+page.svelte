@@ -10,7 +10,7 @@
     })
     let eye_mask_data: { [key: string]: { [key: string]: string } } | null = null;
     if (browser) {
-        fetch("https://mizuha-dev.com/files/data.json").then(res => res.json()).then(data => {
+        fetch("/data.json").then(res => res.json()).then(data => {
             eye_mask_data = data;
             // console.info(eye_mask_data);
         })
